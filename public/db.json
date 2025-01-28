@@ -1,0 +1,156 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Tech Conference 2025",
+      "description": "A conference bringing together industry leaders to discuss advancements in technology and innovation.",
+      "images": [
+        {
+          "imageUrl": "https://random-image-pepebigotes.vercel.app/api/random-image",
+          "caption": "Keynote Speaker"
+        },
+        {
+          "imageUrl": "https://loremflickr.com/300/300/dog",
+          "caption": "Networking Break"
+        },
+        {
+          "imageUrl": "https://random-image-pepebigotes.vercel.app/api/random-image",
+          "caption": "Panel Discussion"
+        },
+        {
+          "imageUrl": "https://loremflickr.com/300/300/horse",
+          "caption": "Tech Exhibits"
+        },
+        {
+          "imageUrl": "https://loremflickr.com/300/300/lion",
+          "caption": "Interactive Workshop"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Art & Design Expo",
+      "description": "Explore creativity and design at its finest, featuring works from renowned artists worldwide.",
+      "images": [
+        {
+          "imageUrl": "https://random-image-pepebigotes.vercel.app/api/random-image",
+          "caption": "Opening Ceremony"
+        },
+        {
+          "imageUrl": "https://loremflickr.com/300/300/cow",
+          "caption": "Artist Corner"
+        },
+        {
+          "imageUrl": "https://random-image-pepebigotes.vercel.app/api/random-image",
+          "caption": "Interactive Display"
+        },
+        {
+          "imageUrl": "https://loremflickr.com/300/300/cow",
+          "caption": "Gallery Tour"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Music Festival",
+      "description": "Join us for an unforgettable experience with live performances from your favorite artists.",
+      "images": [
+        {
+          "imageUrl": "https://random-image-pepebigotes.vercel.app/api/random-image",
+          "caption": "Main Stage"
+        },
+        {
+          "imageUrl": "https://loremflickr.com/300/300/cat",
+          "caption": "Audience Engagement"
+        },
+        {
+          "imageUrl": "https://random-image-pepebigotes.vercel.app/api/random-image",
+          "caption": "Artist Performance"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Startup Pitch Night",
+      "description": "An evening for startups to pitch their ideas to investors and receive valuable feedback.",
+      "images": [
+        {
+          "imageUrl": "https://random-image-pepebigotes.vercel.app/api/random-image",
+          "caption": "Pitch Presentation"
+        },
+        {
+          "imageUrl": "https://loremflickr.com/300/300/bird",
+          "caption": "Investor Panel"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Coding Hackathon",
+      "description": "Test your coding skills and collaborate with others to solve real-world problems.",
+      "images": [
+        {
+          "imageUrl": "https://random-image-pepebigotes.vercel.app/api/random-image",
+          "caption": "Hackathon Coding"
+        }
+      ]
+    },
+    {
+      "id": "12d1",
+      "title": "dfdsf",
+      "description": "",
+      "images": [],
+      "imageCaptions": []
+    },
+    {
+      "id": "eeb7",
+      "title": "dfdsf",
+      "description": "",
+      "images": [],
+      "imageCaptions": []
+    },
+    {
+      "id": "488b",
+      "title": "dfdsf",
+      "description": "",
+      "images": [],
+      "imageCaptions": []
+    },
+    {
+      "id": 6,
+      "title": "dfdsf",
+      "description": "",
+      "images": [
+        {}
+      ],
+      "imageCaptions": []
+    },
+    {
+      "id": 6,
+      "title": "dfdsf",
+      "description": "",
+      "images": [
+        {}
+      ],
+      "imageCaptions": []
+    },
+    {
+      "id": 6,
+      "title": "dfdsf",
+      "description": "",
+      "images": [
+        {}
+      ],
+      "imageCaptions": []
+    },
+    {
+      "id": 6,
+      "title": "dfdsf",
+      "description": "",
+      "images": [
+        {}
+      ],
+      "imageCaptions": []
+    }
+  ]
+}

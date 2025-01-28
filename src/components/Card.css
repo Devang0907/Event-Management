@@ -1,0 +1,78 @@
+/* Card.css */
+.container {
+    max-width: 1200px; /* Limit container width for better layout control */
+  }
+  
+  /* Adjust the image grid wrapper */
+  .image-grid-wrapper {
+    margin-top: 1rem; /* Add top margin for better spacing */
+  }
+  
+  .image-row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto; /* Make the image row scrollable */
+    gap: 1rem; /* Add space between images */
+    padding-bottom: 1rem; /* Add bottom padding for spacing */
+  }
+  
+  .image-item {
+    flex: 0 0 auto; /* Prevent images from shrinking */
+    width: 250px; /* Set a fixed width for each image */
+    border-radius: 10px; /* Slightly round the corners of each image */
+  }
+  
+  .card {
+    border: none; /* Remove default card borders */
+    border-radius: 10px; /* Round corners for the entire card */
+    overflow: hidden; /* Ensure no overflow beyond the card */
+  }
+  
+  .card-body {
+    padding: 1rem; /* Add more padding inside the card body */
+  }
+  
+  .card-img-top {
+    border-radius: 10px; /* Round corners of images */
+  }
+  
+  /* Text Styles */
+  h5.mb-1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  p.mb-2 {
+    font-size: 1rem;
+    color: #6c757d;
+    margin-bottom: 1rem;
+  }
+  
+  .card-body .text-center small {
+    font-size: 0.9rem;
+    color: #999;
+  }
+  
+  .card-body .text-center {
+    padding-top: 0.5rem;
+  }
+  
+  /* Style for "No more images" message */
+  .text-muted {
+    font-size: 0.9rem;
+  }
+  
+  /* Make sure the image items are responsive */
+  @media (max-width: 768px) {
+    .image-row {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .image-item {
+      width: 100%; /* Make the image take full width on smaller screens */
+      margin-bottom: 1rem;
+    }
+  }
+  
