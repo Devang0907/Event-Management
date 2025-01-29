@@ -75,4 +75,16 @@
       margin-bottom: 1rem;
     }
   }
+
+  /* Add this to your Card.css or global stylesheet */
+
+img {
+  border-radius: 8px;
+}
+
+textarea {
+  min-height: 150px;
+  max-height: 300px;
+}
+
   

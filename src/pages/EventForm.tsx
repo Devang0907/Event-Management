@@ -1,15 +1,11 @@
 import React, { useState } from 'react';
-import { CKEditor } from '@ckeditor/ckeditor5-react';
+import {CKEditor} from '@ckeditor/ckeditor5-react';
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import { Button, Form, Col, Row } from 'react-bootstrap';
-import axios from 'axios';
-
-let idCount=6;
 
 function EventForm() {
   // Use a single state to hold all parameters
   const [formData, setFormData] = useState({
-    id: idCount++, 
     title: '',
     description: '',
     images: [] as File[], // Array to hold image files
@@ -55,10 +51,7 @@ function EventForm() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     console.log('Form submitted:', formData);
-    axios.post("http://localhost:3000/events",formData);
   };
-
-
 
   return (
     <Form onSubmit={handleSubmit}>
